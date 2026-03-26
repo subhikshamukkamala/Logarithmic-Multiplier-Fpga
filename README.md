@@ -15,12 +15,6 @@ This project presents the design and implementation of a **logarithmic multiplie
 - **Xilinx Vivado**  
 - **FPGA:** Artix-7  
 
-## Project Structure
-src/ – Verilog source code
-tb/ – Testbench files
-sim/ – Simulation outputs
-docs/ – Documentation
-
 
 ## How It Works
 The design uses **Booth encoding** to reduce partial products during multiplication. A **logarithmic approach** is applied to improve speed and efficiency. The system is synthesized and tested on FPGA for validation.
